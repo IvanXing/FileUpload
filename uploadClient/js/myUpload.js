@@ -1,5 +1,6 @@
 (function () {
-  // 请求主体传递给服务器的数据格式: FormData / x-www-form-urlencoded / json字符串 / 普通文本字符串 / Buffer
+  // 请求主体传递给服务器的数据格式: 
+  // FormData / x-www-form-urlencoded / json字符串 / 普通文本字符串 / Buffer
   let fm = new FormData();
   fm.append('file', '');
   fm.append('filename', '');
